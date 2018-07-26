@@ -20,6 +20,7 @@ Date(data_hora_ligacao) as date
 ,AVG(If(tempo_falado > 0 or tempo_wrapup > 0, tempo_falado + tempo_wrapup , null)) * sum(if(tempo_falado > 0 or tempo_wrapup > 0, 1, 0)) as 'TMO Produto'
 
 from (
+  .
 
 Select
 indice
