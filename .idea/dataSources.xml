@@ -15,5 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="Zendesk" uuid="cb8800f4-a724-4f56-b0f4-c9ffe7aac499">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://bi-psql.cseowh1mvysv.sa-east-1.rds.amazonaws.com:5432/bi_psql</jdbc-url>
+    </data-source>
   </component>
 </project>
